@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body {
+          
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        header ,footer {
+            background-color: #fea685;
+            flex: 0 0 10%;
+            display: flex;
+            text-align: left;
+            align-items: center;
+            justify-content: center;
+            border: 9px solid white;
+        }
+         
+
+        nav {
+            height: 50px;
+            background-color: #fea685;
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+            align-items: center;
+            padding-right: 20px;
+            border: 9px solid white;
+        }
+
+        .nav {
+            text-decoration: none;
+            color: white;
+        }
+        .article-aside{
+            display: flex;
+            flex-direction: row;
+        }
+        
+
+        article {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            width: 60%;
+            background-color: #34c9ff;
+            gap: 10px;
+            border: 9px solid white;
+            
+        }
+
+        aside {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 40%;
+            background-color: #d9d9d9;
+            padding: 20px;
+            border: 9px solid white;
+            
+        }
+
+        .aside section {
+            background-color: rgb(247, 241, 241);
+            padding: 20px;
+        }
+
+        .article section {
+            background-color: #a2e1fd;
+            padding: 20px;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+<header>
+    Header
+</header>
+
+<nav>
+    <div class="nav">
+        <input type="button" value=" ">
+        <input type="button" value=" ">
+        <input type="button" value=" ">
+        
+     </div>    
+</nav>
+
+<div class="article-aside">
+    <article class="article">
+        <h2> article </h2>
+        <section>
+            <h2>  </h2>
+            <p> </p>
+        </section>
+        <section>
+            <h2> </h2>
+            <p> </p>
+        </section>
+        <section>
+            <h2> </h2>
+            <p> </p>
+        </section>
+    </article>
+
+    <aside class="aside">
+        <h2> aside </h2>
+        <section>
+            <h2> </h2>
+            <p> </p>
+        </section>
+        <section>
+            <h2> </h2>
+            <p> </p>
+        </section>
+    </aside>
+</div>
+
+<footer>
+    Footer
+</footer>
+
+</body>
+</html>
